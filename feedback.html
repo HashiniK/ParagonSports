@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+
+	<title>Paragon Sports | Feedback Page</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style_sheets/HomePage.css">
+	<link rel="icon" type="image/x-icon" href="style_sheets/Images/Logo-1.png">
+	<script type="text/javascript" src="javascript/FeedbackPage.js"></script>
+</head>
+
+<h4 name="page_top"></h4>
+
+<body>
+
+	<div class="feedback_image">
+
+<!--Navigation bar-->
+	<header>
+		<div class="naviBar">
+
+			<div class="naviLeft">
+
+				<div class="logo"><a href="HomePage.html"><img src="style_sheets/Images/Logo-1.png" alt="Page logo"></a></div>
+				<h4 class="name">Paragon Sports </h4>
+
+			</div>
+			
+			<div class="naviRight">
+				<a href="HomePage.html">HOME</a>
+
+				<div class="shop">
+
+					<button class="shopbtn">SHOP NOW<i class="fa fa-caret-down"></i> </button>
+
+    				<div class="sports">
+
+      					<a href="cricketstore.html">Cricket</a>
+      					<a href="footballstore.html">Football</a>
+      					<a href="rugbystore.html">Rugby</a>
+      					<a href="volleyballstore.html">Volleyball</a>
+      					<a href="basketballstore.html">Basketball</a>
+      					<a href="fitnessstore.html">Fitness</a>
+   					 </div>
+				</div>
+
+				<a href="aboutus.html">ABOUT US</a>
+				<a href="quizStartPage.html">QUIZ</a>
+				<a href="gallery.html">GALLERY</a>
+				<a href="smp.html">SITE MAP</a>
+				<a href="feedback.html">FEEDBACK</a><br>
+				
+			</div>
+
+		</div>
+		</header>
+<!--End Navigation bar-->
+
+<!--Feedback Form-->
+		<form name="feedback_form" method="post">
+		<div class="feedback_box">
+			<p class="title">Give us your valuable feedback</p>
+		</div>
+			<div class="details">
+				<label for="name"> Your Name:</label>
+	  			<input type="text" id="name" name="name">
+
+	  			<label for="email">Your Email Adress:</label>
+	  			<input type="text" id="email" name="email">
+			</div>
+			<div class="comment">
+					<label for="comment">Your Comment:</label>
+					<input type="text" class="section" name="comment">
+			</div>
+			<div class="ratebox">
+				<p>Rate Us<p>
+			</div>
+			<div class="rating">
+							<input type="radio" class="radio" name="rate" value="Excellent" id="star1"/>
+							<label for="star1">Excellent</label><br>
+							<input type="radio" class="radio" name="rate" value="Good" id="star2"/>
+							<label for="star2">Good</label><br>
+							<input type="radio" class="radio" name="rate" value="Average" id="star3"/>
+							<label for="star3">Satisfied</label><br>
+							<input type="radio" class="radio" name="rate" value="Poor" id="star4"/>
+							<label for="star4">Poor</label>
+			</div>
+			<div class="submit">
+				<button class="submitbtn" onclick="valform();">Submit</button>
+			</div>	
+	</div>
+	</form>
+<!--End feedback Form-->
+
+<!--Footer-->
+<footer>
+<div class="footer02">
+			<div class="page_name">
+				Paragon Sports
+			</div>
+
+			<div class="footer_nav">
+
+				<h1>Navigations</h1><br>
+				<a href="HomePage.html">Home</a><br>
+				<a href="aboutus.html">About Us</a><br>
+				<a href="quizStartPage.html">Quiz</a><br>
+				<a href="gallery.html">Gallery</a><br>
+				<a href="smp.html">Site map</a><br>
+				<a href="feedback.html">Feedback</a><br>
+			</div>
+
+			<div class="footer_contact">
+				<h1>Contact Us :</h1><br>
+				<a>Contact No : 057 222 333 7</a><br>
+				<a>Email : www.paragosports@gmail.com</a><br>
+				<a style="display:block" href="https://www.facebook.com/" target="_blank">
+				<img src="style_sheets/Images/fb.png" alt="Facebook Logo" class="fb">
+				</a>
+				<a style="display:block" href="https://www.instagram.com/" target="_blank">
+				<img src="style_sheets/Images/insta.png" alt="Instagram Logo" class="insta">
+				</a>
+				<a style="display:block" href="https://twitter.com/" target="_blank">
+				<img src="style_sheets/Images/tw.png" alt="Twitter Logo" class="tw">
+				</a>
+			</div>
+
+			<div class="page_editor">
+				<a href="details - Layantha.html"><img src="style_sheets/Images/Student2.png" height="240px" width="240px">
+				<p><b>Page Editor : Layantha Pramudith</b></p>
+				<p><b>Student 02</b></p>
+			</div>
+
+			<div class="page_top">
+				<img src="style_sheets/Images/top.png" alt="Back to Top Logo" class="b2t">
+				<a class="top_btn" href="#top">Back to Top</a>
+ 			</div>
+
+		</div>
+</footer>
+<!--End footer-->
+
+</body>
+</html>

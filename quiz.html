@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Paragon Sports | Quiz </title>
+		<link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
+
+		<style>		
+			body {
+				background: url("style_sheets/Images/caroline-justine-_4GlQrItiGI-unsplash.jpg") no-repeat center center fixed; 
+				-webkit-background-size: cover;
+				-moz-background-size: cover;
+				-o-background-size: cover;
+				background-size: cover;
+				font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+				opacity : 0.9;
+				}
+			form {
+				background-color : transparent;
+				border-radius : 10px;
+				border-color: black;
+				margin-right : 25%;
+				margin-left : 25%;
+				font-size: 20px;
+				}
+			#button2 {
+				font-size: 20px;
+				border-radius : 15px;
+				border-color : black;
+				}
+			#timer {
+				font-size : 30px;
+				text-align : center;
+				font-family : Georgia, serif;
+				}
+		</style>
+		
+			<link rel="stylesheet" type="text/css" href="style_sheets/HomePage.css">
+			<link rel="icon" type="image/x-icon" href="style_sheets/Images/Logo-1.png">
+	
+	</head>
+
+	<body>
+	
+			<div class="naviBar">
+		<header></header>
+			<div class="naviLeft">
+
+				<div class="logo"><a href="HomePage.html"><img src="style_sheets/Images/Logo-1.png" alt="Page logo"></a></div>
+				<h4 class="name">Paragon Sports </h4>
+
+			</div>
+			
+			<div class="naviRight">
+				<a href="HomePage.html">HOME</a>
+
+				<div class="shop">
+
+					<button class="shopbtn">SHOP NOW<i class="fa fa-caret-down"></i> </button>
+
+    				<div class="sports">
+
+      					<a href="cricketstore.html">Cricket</a>
+      					<a href="footballstore.html">Football</a>
+      					<a href="rugbystore.html">Rugby</a>
+      					<a href="volleyballstore.html">Volleyball</a>
+      					<a href="basketballstore.html">Basketball</a>
+      					<a href="fitnessstore.html">Fitness</a>
+   					 </div>
+				</div>
+
+				<a href="aboutus.html">ABOUT US</a>
+				<a href="quizStartPage.html">QUIZ</a>
+				<a href="gallery.html">GALLERY</a>
+				<a href="smp.html">SITE MAP</a>
+				<a href="feedback.html">FEEDBACK</a><br>
+				
+			</div>
+
+		</div>
+	</header>
+	<!--CSS GRID-->
+	<div class="container">
+			
+			<br><br><br>
+	  
+		<!--display timer-->
+			<div id= "time" name="time" >
+			 <p id="timer"> </p>
+			</div><br>
+		</div>
+			
+		<!--quiz-->
+		<div class="quiz"> 
+		<form id= "quiz" name="quiz" >
+		<hr>
+		<h1 id="topic">Let's test your knowledge on sports trivia!</h1>
+
+			<div id = "box">
+			
+			<p>01. Which country has won the most World Cups?</p>
+			<form>
+				<input type="radio"  name="q1" value="Australia"> Australia</input> <br>
+				<input type="radio"  name="q1" value="India"> India </input> <br>
+				<input type="radio"  name="q1" value="England"> England </input> <br>
+				<input type="radio"  name="q1" value="Sri Lanka"> Sri Lanka </input> <br>
+			</form>
+			
+			<div id="answer1" style="height: 30px; width: 500px;"> </div>
+
+			
+			<p>02. Who is the only cricketer to take a wicket in his first over in Tests, ODIs and T20s?</p>
+			<form>
+				<input type="radio"  name="q2" value="Kumar Sangakkar"> Kumar Sangakkar </input> <br>
+				<input type="radio"  name="q2" value="Sachin Tendulkar"> Sachin Tendulkar </input> <br>
+				<input type="radio"  name="q2" value="Shaminda Eranga"> Shaminda Eranga </input> <br>
+				<input type="radio"  name="q2" value="Mahela Jayawardena"> Mahela Jayawardena </input> <br>
+			</form>
+			
+			<div id="answer2" style="height: 30px; width: 500px;"> </div>
+			
+
+			<p>03. When was volleyball invented?</p>
+			<form>
+				<input type="radio"  name="q3" value="1886"> 1886 </input> <br>
+				<input type="radio"  name="q3" value="1889"> 1889 </input> <br>
+				<input type="radio"  name="q3" value="1890"> 1890 </input> <br>
+				<input type="radio"  name="q3" value="1895"> 1895 </input> <br>
+			</form>
+			
+			<div id="answer3" style="height: 30px; width: 500px;"> </div>
+			
+			
+			<p>04. What is the fastest volleyball spike ?</p>
+			<form>
+				<input type="radio"  name="q4" value="100 km/h "> 100 km/h </input> <br>
+				<input type="radio"  name="q4" value="103 km/h"> 103 km/h </input> <br>
+				<input type="radio"  name="q4" value="96 km/h"> 96 km/h </input> <br>
+				<input type="radio"  name="q4" value="67 km/h"> 67 km/h </input> <br>
+			</form>
+			
+			<div id="answer4" style="height: 30px; width: 500px;"> </div>
+			
+
+			
+			<p>05. Who won the last held Rugby World Cup? </p>
+			<form>
+				<input type="radio"  name="q5" value="England"> England </input> <br>
+				<input type="radio"  name="q5" value="New Zealand"> New Zealand </input> <br>
+				<input type="radio"  name="q5" value="Australia"> Australia </input> <br>
+				<input type="radio"  name="q5" value="South Africa"> South Africa </input> <br>
+			</form>
+			
+			<div id="answer5" style="height: 30px; width: 500px;"> </div>
+			
+
+			
+			<p>06. Who has the most international cups in rugby history?</p>
+			<form>
+				<input type="radio"  name="q6" value="Sonny Bill Williams"> Sonny Bill Williams </input> <br>
+				<input type="radio"  name="q6" value="Kieran Read"> Kieran Read </input> <br>
+				<input type="radio"  name="q6" value="Richie McCaw"> Richie McCaw </input> <br>
+				<input type="radio"  name="q6" value="Dan Carter "> Dan Carter </input> <br>
+			</form>
+			
+			<div id="answer6" style="height: 30px; width: 500px;"> </div>
+			
+
+			<p>07. Which English Premier League Club has won the most domestic Titles?</p>
+			<form>
+				<input type="radio"  name="q7" value="Liverpool"> Liverpool </input> <br>
+				<input type="radio"  name="q7" value="Manchester United"> Manchester United </input> <br>
+				<input type="radio"  name="q7" value="Manchester City"> Manchester City </input> <br>
+				<input type="radio"  name="q7" value="Chelsea"> Chelsea </input> <br>
+			</form>
+			
+			<div id="answer7" style="height: 30px; width: 500px;" > </div>
+			
+
+		
+			<p>08. Who is the youngest player to appear/debut in a FIFA World Cup? </p>
+			<form>
+			<input type="radio"  name="q8" value="Norman Whiteside"> Norman Whiteside </input> <br>
+			<input type="radio"  name="q8" value="Bobby Charlton"> </a> Bobby Charlton </input> <br>
+			<input type="radio"  name="q8" value="Sammy McIlroy"> Sammy McIlroy </input> <br>
+			<input type="radio"  name="q8" value="Bryan Robson"> Bryan Robson </input> <br>
+			</form>
+			
+			<div id="answer8" style="height: 30px; width: 500px;" > </div>
+			
+
+			
+			<p>09. What are the 3 stages of exercise?</p>
+			<form>
+			<input type="radio"  name="q9" value="Warm Up,Workout,Cool Down">Warm Up, Workout, Cool Down</input><br>
+			<input type="radio"  name="q9" value="Cool Down,Workout,Warm Up">Cool Down, Workout, Warm Up</input> <br> 
+			<input type="radio"  name="q9" value="Workout,Cool Down,Workout">Workout, Cool Down, Workout</input> <br>
+			<input type="radio"  name="q9" value="WaWoWa">Warm Up, Workout, Warm Up</input> <br>
+			</form>
+			
+			<div id="answer9" style="height: 30px; width: 500px;"> </div>
+			
+
+			<p>10. Approximately how much of your body weight is muscle percentage?</p>
+			<form>
+			<input type="radio" id = "mc" name="q10" value="50"> 50 </input> <br> 
+			<input type="radio" id = "mc" name="q10" value="60"> 60 </input> <br> 
+			<input type="radio" id = "mc" name="q10" value="40"> 40 </input> <br> 
+			<input type="radio" id = "mc" name="q10" value="35"> 30 </input> <br> 
+			</form>
+			
+			<div id="answer10" style="height: 30px; width: 500px;"> </div>
+		
+	<!--back to the top and finished buttons-->	
+	<input id= "button2" type="button" value="FINISHED" onclick="validate();" ></input>
+	<a href="#topic"><input id= "button2" type="button" value="BACK TO TOP" ;" > </input></a>
+	
+	
+	<hr>
+		<!--quiz results-->
+		<div id="submit">
+			<p id="correct"> </p>
+			<p id="text"> </p>
+			
+		
+		</div>
+		</div>
+		</form>
+
+	<script>
+<!--timer calculation-->
+			var timer;
+            var min = 2;
+            var sec = 60;
+            var min2; 
+			var sec2;
+            
+            window.onload = function timecount(){
+                timer = setInterval(function(){ 
+                    sec--;
+                    if (min == 0 && sec == 0){
+                        clearTimeout(timer);
+                        document.getElementById("box").innerHTML = "Session has Timed Out!"
+                        }
+                    else if(sec == 00){
+                        min--;
+                        sec = 60;
+                    }
+                     document.getElementById("timer").innerHTML =   "COUNTDOWN " + min + " : " + sec  ;  
+                    },1000);
+         		 }
+				 
+	<!--validating the answers-->
+	function validate(){
+		clearTimeout(timer);
+		var arrayAns1 = document.getElementsByName("q1");
+        var arrayAns2 = document.getElementsByName("q2");
+        var arrayAns3 = document.getElementsByName("q3");
+        var arrayAns4 = document.getElementsByName("q4");
+        var arrayAns5 = document.getElementsByName("q5");
+        var arrayAns6 = document.getElementsByName("q6");
+        var arrayAns7 = document.getElementsByName("q7");
+        var arrayAns8 = document.getElementsByName("q8");
+        var arrayAns9 = document.getElementsByName("q9");
+        var arrayAns10 = document.getElementsByName("q10");	
+		var correct = 0;
+
+		
+		var ans1Select = " "; 
+		var ans2Select = " "; 
+		var ans3Select = " "; 
+		var ans4Select = " "; 
+		var ans5Select = " ";
+        var ans6Select = " "; 
+		var ans7Select = " "; 
+		var ans8Select = " "; 
+		var ans9Select = " "; 
+		var ans10Select = " ";
+		
+		
+		 //Question 1
+                for (var i=0; i< arrayAns1.length;i++){
+                    if (arrayAns1[i].checked){
+                        ans1Select = arrayAns1[i].value;
+                        break;
+                    }
+                }
+                if (ans1Select == " ") {
+                    document.getElementById("answer1").innerHTML = "Please select an answer." ;
+					document.getElementById("answer1").style.color = "red";
+                }
+                else if(ans1Select == "Australia") {
+                    document.getElementById("answer1").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer1").style.color = "green";
+                }
+                else {
+                    document.getElementById("answer1").innerHTML = "You got it wrong. The correct Answer is Australia." ;
+                    correct--;
+					document.getElementById("answer1").style.color = "red";
+                }
+				
+		//Question 2
+                for (var i=0; i< arrayAns2.length;i++){
+                    if (arrayAns2[i].checked){
+                        ans2Select = arrayAns2[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans2Select == " ") {
+                    document.getElementById("answer2").innerHTML = "Please select an answer." ;
+					document.getElementById("answer2").style.color = "red";
+                }
+                else if(ans2Select == "Shaminda Eranga") {
+                    document.getElementById("answer2").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer2").style.color = "green";
+                }
+                else {
+                    document.getElementById("answer2").innerHTML = "You got it wrong. The correct Answer is Shaminda Eranga." ;
+                    correct--;
+					document.getElementById("answer2").style.color = "red";
+                }
+				
+		//Question 3
+                for (var i=0; i< arrayAns3.length;i++){
+                    if (arrayAns3[i].checked){
+                        ans3Select = arrayAns3[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans3Select == " ") {
+                    document.getElementById("answer3").innerHTML = "Please select an answer." ;
+					document.getElementById("answer3").style.color = "red";
+                }
+                else if(ans3Select == "1895") {
+                    document.getElementById("answer3").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer3").style.color = "green";
+                }
+                else {
+                    document.getElementById("answer3").innerHTML = "You got it wrong. The correct Answer is 1895." ;
+                    correct--;
+					document.getElementById("answer3").style.color = "red";
+                }
+                
+        //Question 4
+                for (var i=0; i< arrayAns4.length;i++){
+                    if (arrayAns4[i].checked){
+                        ans4Select = arrayAns4[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans4Select == " ") {
+                    document.getElementById("answer4").innerHTML = "Please select an answer." ;
+					document.getElementById("answer4").style.color = "red";
+                }
+                else if(ans4Select == "103 km/h") {
+                    document.getElementById("answer4").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer4").style.color = "green";
+                }
+                else {
+                    document.getElementById("answer4").innerHTML = "You got it wrong. The correct Answer is 103 km/h." ;
+                    correct--;
+					document.getElementById("answer4").style.color = "red";
+                }
+                
+        //Question 5
+                for (var i=0; i< arrayAns5.length;i++){
+                    if (arrayAns5[i].checked){
+                        ans5Select = arrayAns5[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans5Select == " ") {
+                    document.getElementById("answer5").innerHTML = "Please select an answer." ;
+					document.getElementById("answer5").style.color = "red";
+                }
+                else if(ans5Select == "South Africa") {
+                    document.getElementById("answer5").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer5").style.color = "green";
+                }
+                else {
+                    document.getElementById("answer5").innerHTML = "You got it wrong. The correct Answer is South Africa." ;
+                    correct--;
+					document.getElementById("answer5").style.color = "red";
+                }
+
+		//Question 6
+                for (var i=0; i< arrayAns6.length;i++){
+                    if (arrayAns6[i].checked){
+                        ans6Select = arrayAns6[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans6Select == " ") {
+                    document.getElementById("answer6").innerHTML = "Please select an answer." ;
+					document.getElementById("answer6").style.color = "red";
+                }
+                else if(ans6Select == "Richie McCaw") {
+                    document.getElementById("answer6").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer6").style.color = "green";
+                }
+                else {
+                    document.getElementById("answer6").innerHTML = "You got it wrong. The correct Answer is Richie McCaw." ;
+                    correct--;
+					document.getElementById("answer6").style.color = "red";
+                }
+                
+        //Question 7
+                for (var i=0; i< arrayAns7.length;i++){
+                    if (arrayAns7[i].checked){
+                        ans7Select = arrayAns7[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans7Select == " ") {
+                    document.getElementById("answer7").innerHTML = "Please select an answer." ;
+					document.getElementById("answer7").style.color = "red";
+                }
+                else if(ans7Select == "Manchester United") {
+                    document.getElementById("answer7").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer7").style.color = "green";
+                }
+                else {
+                    document.getElementById("answer7").innerHTML = "You got it wrong. The correct Answer is Manchester United." ;
+                    correct--;
+					document.getElementById("answer7").style.color = "red";
+                }
+                
+		//Question 8
+                for (var i=0; i< arrayAns8.length;i++){
+                    if (arrayAns8[i].checked){
+                        ans8Select = arrayAns8[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans8Select == " ") {					
+                    document.getElementById("answer8").innerHTML = "Please select an answer." ;
+					document.getElementById("answer8").style.color = "red";
+                }
+                else if(ans8Select == "Norman Whiteside") {					
+                    document.getElementById("answer8").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer8").style.color = "green";
+                }
+                else {					
+                    document.getElementById("answer8").innerHTML = "You got it wrong. The correct Answer is Norman Whiteside." ;
+                    correct--;
+					document.getElementById("answer8").style.color = "red";
+                }
+                
+        //Question 9
+                for (var i=0; i< arrayAns9.length;i++){
+                    if (arrayAns9[i].checked){
+                        ans9Select = arrayAns9[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans9Select == " ") {					
+                    document.getElementById("answer9").innerHTML = "Please select an answer." ;
+					document.getElementById("answer9").style.color = "red";
+                }
+                else if(ans9Select == "Warm Up,Workout,Cool Down") {					
+                    document.getElementById("answer9").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer9").style.color = "green";
+                }
+                else {					
+                    document.getElementById("answer9").innerHTML = "You got it wrong. The correct Answer is Warm Up,Workout,Cool Down" ;
+                    correct--;
+					document.getElementById("answer9").style.color = "red";
+                }
+                
+		//Question 10
+                for (var i=0; i< arrayAns10.length;i++){
+                    if (arrayAns10[i].checked){
+                        ans10Select = arrayAns10[i].value;
+                        break;
+                    }
+                }
+                
+                if (ans10Select == " ") {					
+                    document.getElementById("answer10").innerHTML = "Please select an answer." ;
+					document.getElementById("answer10").style.color = "red";
+                }
+                else if(ans10Select == "40") {					
+                    document.getElementById("answer10").innerHTML = "You got it right!" ;
+                    correct +=2;
+					document.getElementById("answer10").style.color = "green";
+                }
+                else {					
+                    document.getElementById("answer10").innerHTML = "You got it wrong. The correct Answer is 40." ;
+                    correct--;
+					document.getElementById("answer10").style.color = "red";
+                }
+		if (correct<0){
+	correct=0;
+	}							
+	
+	<!----final Message ---->
+	var messages = ["YOU'RE A TRUE SPORTS LOVER!","GREAT JOB!", "Ooops... Looks like you need to brushen up your trivia knowledge! ", "Have you even heard of these sports!"];
+	
+	<!---background color change according to the score--->
+	var score;
+	if (correct ==20) {
+		score = 0;
+		{
+    document.getElementById("quiz").style.backgroundColor = "#4ed400";
+		}
+		
+	}
+	else if (correct >14) {
+		score = 1;
+		{
+    document.getElementById("quiz").style.backgroundColor = "#34a1eb";
+		}		
+	}
+	else if (correct > 8) {
+		score = 2;
+		{
+    document.getElementById("quiz").style.backgroundColor = "#ebb750";
+		}
+	}
+	else  {
+		score = 3;
+		 {
+    document.getElementById("quiz").style.backgroundColor = "#de6262";
+		}
+	} 
+	
+	min2 = 2 - min;
+	sec2 = 60 - sec;
+	       
+	document.getElementById("submit").style.visibility = "visible";
+	document.getElementById("correct").innerHTML = "You got " + correct + "/20."+  "<br> You took " + min2 + " Minute/s and " + sec2 + " Second/s to complete the quiz."; 
+	document.getElementById("text").innerHTML = messages[score];
+	
+	}	
+	</script>
+	
+<footer>
+    <div class="footer06">
+            <div class="page_name">
+                Paragon Sports
+            </div>
+
+            <div class="footer_nav">
+
+                <h1>Navigations</h1><br>
+                <a href="HomePage.html">Home</a><br>
+				<a href="aboutus.html">About Us</a><br>
+				<a href="quizStartPage.html">Quiz</a><br>
+				<a href="gallery.html">Gallery</a><br>
+				<a href="smp.html">Site map</a><br>
+				<a href="feedback.html">Feedback</a><br>
+            </div>
+
+            <div class="footer_contact">
+                <h1>Contact Us :</h1><br>
+                <a>Contact No : 057 222 333 7</a><br>                         
+                <a>Email : www.paragosports@gmail.com</a><br>
+                <a style="display:block" href="https://www.facebook.com/" target="_blank">
+                <img src="style_sheets/Images/fb.png" alt="Facebook Logo" class="fb">
+                </a>
+                <a style="display:block" href="https://www.instagram.com/" target="_blank">
+                <img src="style_sheets/Images/insta.png" alt="Instagram Logo" class="insta">
+                </a>
+                <a style="display:block" href="https://twitter.com/" target="_blank">
+                <img src="style_sheets/Images/tw.png" alt="Twitter Logo" class="tw">
+                </a>
+            </div>
+
+            <div class="page_editor">
+                <a href="details - Hashini.html"><img src="style_sheets/Images/hashini.jpg" height="240px" width="240px">
+                <p><b>Page Editor : Hashini Kodithuwakku</b></p>
+                <p><b>Student 03</b></p>
+            </div>
+
+            <div class="page_top">
+                <img src="style_sheets/Images/top.png" alt="Back to Top Logo" class="b2t">
+                <a class="top_btn" href="#top">Back to Top</a>
+            </div>
+
+        </div>
+
+</footer>
+	</body>
+</html>
